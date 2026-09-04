@@ -63,7 +63,7 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">PhD researcher · Geneva -  Lausanne, Switzerland</p>
+          <p className="eyebrow">Machine Learning PhD · Geneva -  Lausanne, Switzerland</p>
           <h2 className="hero-title">Learning what drives intelligent behaviour.</h2>
           <p className="lede">
             I’m Victor, a machine learning researcher working on reinforcement learning,
@@ -82,23 +82,31 @@ export default function Home() {
         </figure>
       </section>
 
-      <section className="section split research-section" id="research">
+      <section className="section research-section" id="research">
         <p className="section-label">Research</p>
         <div className="section-body intro-grid">
           <p className="statement">
-            My research asks how we can infer the hidden objectives behind behaviour—and
-            use that understanding to build agents that cooperate, adapt, and generalise.
+            My research starts from a simple idea: when behaviour is ambiguous, change the
+            conditions under which you observe it.
           </p>
           <div className="research-notes">
             <p>
-              I am a soon to be PhD in Computer Science at the University of Neuchâtel,
-              advised by Prof. Christos Dimitrakakis. My thesis studies efficient reward
-              inference and cooperation in multi-agent systems.
+              I am completing my PhD in Computer Science at the University of Neuchâtel,
+              advised by Prof. Christos Dimitrakakis. My thesis, <em>Environmental
+              Interventions for Efficient Reward Inference and Robust Teamwork</em>, asks how
+              carefully changing an agent’s environment can reveal the objectives behind its
+              decisions and help train systems that cooperate with unfamiliar partners.
             </p>
             <p>
-              I care equally about clear mathematical formulations and robust implementation,
-              from theoretical guarantees to distributed training across thousands of
-              environment frames per second.
+              I enjoy finding mathematical formulations for difficult AI problems just as much
+              as tackling them in practice, building systems, and testing ideas through their
+              implementations.
+            </p>
+            <p>
+              My work spans inverse reinforcement learning, active learning, multi-agent
+              systems, and ad hoc teamwork. I care about methods that use fewer demonstrations,
+              separate individual preferences from social incentives, and remain reliable when
+              environments or partners change.
             </p>
           </div>
         </div>

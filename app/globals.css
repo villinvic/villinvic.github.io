@@ -72,7 +72,7 @@ nav a:hover, .hero-links a:hover, .text-link:hover, footer a:hover { color: var(
 .hero-title {
   max-width: 820px;
   margin: 20px 0 30px;
-  font-size: clamp(3.8rem, 7.2vw, 7.1rem);
+  font-size: clamp(3.15rem, 5.6vw, 5.65rem);
   line-height: .93;
   font-family: 'FolkProH', var(--font-geist-sans), sans-serif;
   font-weight: 900;
@@ -101,12 +101,13 @@ nav a:hover, .hero-links a:hover, .text-link:hover, footer a:hover { color: var(
 
 .section { padding: 108px 0; border-top: 1px solid var(--line); }
 .split { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: clamp(48px, 9vw, 140px); }
-.research-section { grid-template-columns: 150px minmax(0, 1fr); gap: clamp(36px, 5vw, 72px); }
+.research-section .section-label { margin-bottom: 42px; }
 .section-body { min-width: 0; }
-.intro-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(40px, 5vw, 68px); }
-.statement { margin: 0; font-size: clamp(2rem, 3.7vw, 3.5rem); line-height: 1.09; letter-spacing: -.052em; }
-.research-notes { color: #d1d5db; font-size: 1.04rem; line-height: 1.65; }
-.research-notes p:first-child { margin-top: 0; }
+.intro-grid { display: grid; grid-template-columns: 1fr; gap: 38px; }
+.statement { max-width: 960px; margin: 0; font-size: clamp(2rem, 3.7vw, 3.5rem); line-height: 1.09; letter-spacing: -.052em; }
+.research-notes { max-width: 780px; margin-left: auto; color: #d1d5db; font-size: 1.04rem; line-height: 1.65; }
+.research-notes p { margin: 0; }
+.research-notes p + p { margin-top: 14px; }
 
 .publication { display: grid; grid-template-columns: 64px 1fr auto; align-items: start; gap: 20px; padding: 25px 12px; margin-inline: -12px; border-top: 1px solid var(--line); border-radius: 8px; transition: background-color .18s ease; }
 .publication:hover { background: rgba(17, 24, 39, .5); }
@@ -146,7 +147,7 @@ footer p:first-child { color: var(--cyan); font-family: 'FolkProH', var(--font-g
   .site-header { min-height: 76px; }
   nav a:nth-child(-n + 2) { display: none; }
   .hero { min-height: auto; grid-template-columns: 1fr; padding: 72px 0 88px; gap: 64px; }
-  .hero-title { font-size: clamp(3.4rem, 15vw, 5.8rem); }
+  .hero-title { font-size: clamp(2.8rem, 12vw, 4.6rem); }
   .portrait-wrap { width: min(82%, 390px); margin-left: auto; }
   .split, .intro-grid { grid-template-columns: 1fr; }
   .section { padding: 80px 0; }
