@@ -90,7 +90,7 @@ nav a:hover, .hero-links a:hover, .text-link:hover, footer a:hover { color: var(
 .availability::before { width: 7px; height: 7px; border-radius: 50%; background: var(--pink-bright); content: ''; box-shadow: 0 0 0 4px rgba(236, 72, 153, .12); }
 .hero-links { display: flex; flex-wrap: wrap; gap: 16px 28px; margin-top: 24px; font-size: .92rem; }
 .hero-links span, .project-card a span, footer a span { color: var(--pink); }
-.portrait-wrap { margin: 0; position: relative; }
+.portrait-wrap { width: min(100%, 340px); margin: 0; position: relative; justify-self: end; }
 .portrait-wrap::before {
   content: '';
   position: absolute;
@@ -99,7 +99,7 @@ nav a:hover, .hero-links a:hover, .text-link:hover, footer a:hover { color: var(
   border-radius: 8px;
   z-index: -1;
 }
-.portrait { width: 100%; aspect-ratio: 1; display: block; object-fit: cover; object-position: 50% 32%; border-radius: 8px; filter: saturate(.72) contrast(1.04); }
+.portrait { width: 100%; max-width: 340px; aspect-ratio: 1; display: block; object-fit: cover; object-position: 50% 32%; border-radius: 8px; filter: saturate(.72) contrast(1.04); }
 
 .section { padding: 108px 0; border-top: 1px solid var(--line); }
 .split { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: clamp(48px, 9vw, 140px); }
