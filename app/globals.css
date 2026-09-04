@@ -168,7 +168,8 @@ footer p { margin: 0; }
   .hero { padding-top: 58px; }
   .hero-title { letter-spacing: -.063em; }
   .lede { font-size: 1.08rem; }
-  .portrait-wrap { width: 74px; max-width: 21vw; margin-inline: auto; justify-self: center; }
+  .portrait-wrap { width: min(74px, 21vw); height: min(74px, 21vw); max-width: none; margin-inline: auto; justify-self: center; }
+  .portrait { width: 100%; height: 100%; max-width: none; }
   .publication { grid-template-columns: 46px 1fr auto; gap: 12px; }
   .project-card { padding: 25px; }
 }
