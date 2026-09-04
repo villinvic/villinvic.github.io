@@ -63,8 +63,8 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">PhD researcher · Geneva -- Lausanne, Switzerland</p>
-          <h2>Learning what drives intelligent behaviour.</h2>
+          <p className="eyebrow">PhD researcher · Geneva -  Lausanne, Switzerland</p>
+          <h2 className="hero-title">Learning what drives intelligent behaviour.</h2>
           <p className="lede">
             I’m Victor, a machine learning researcher working on reinforcement learning,
             reward inference, and multi-agent systems. I build theoretically grounded
@@ -91,7 +91,7 @@ export default function Home() {
           </p>
           <div className="research-notes">
             <p>
-              I am completing a PhD in Computer Science at the University of Neuchâtel,
+              I am a soon to be PhD in Computer Science at the University of Neuchâtel,
               advised by Prof. Christos Dimitrakakis. My thesis studies efficient reward
               inference and cooperation in multi-agent systems.
             </p>
