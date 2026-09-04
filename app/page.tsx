@@ -42,7 +42,7 @@ const projects = [
     name: 'Polaris',
     meta: '2024—Present',
     description:
-      'A modular distributed deep-RL framework for asynchronous rollouts, batched inference, recurrent policies, and large-scale multi-agent experiments.',
+      'A modular distributed deep-RL framework for asynchronous rollouts, batched inference, adaptive policies, and large-scale multi-agent experiments.',
     href: 'https://github.com/villinvic',
     cta: 'View on GitHub',
   },
@@ -93,12 +93,13 @@ export default function Home() {
           <div className="research-notes">
             <p>
               I am completing my PhD in Computer Science at the University of Neuchâtel,
-              advised by Prof. Christos Dimitrakakis. My work connects inverse reinforcement
+              advised by Prof. Christos Dimitrakakis. My work connects (inverse) reinforcement
               learning, active learning, and multi-agent systems.
             </p>
             <p>
-              I enjoy moving between mathematical formulations and practical systems, from
-              theoretical guarantees to large-scale experiments.
+              I enjoy working across the full research pipeline: from mathematical formulation to
+              practical implementation. I love developing theoretically sound methods and testing them
+              end to end in large-scale environments.
             </p>
           </div>
         </div>
