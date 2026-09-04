@@ -86,27 +86,18 @@ export default function Home() {
         <p className="section-label">Research</p>
         <div className="section-body intro-grid">
           <p className="statement">
-            My research starts from a simple idea: when behaviour is ambiguous, change the
-            conditions under which you observe it.
+            I study how agents can infer what others want—and cooperate when environments
+            and partners change.
           </p>
           <div className="research-notes">
             <p>
               I am completing my PhD in Computer Science at the University of Neuchâtel,
-              advised by Prof. Christos Dimitrakakis. My thesis, <em>Environmental
-              Interventions for Efficient Reward Inference and Robust Teamwork</em>, asks how
-              carefully changing an agent’s environment can reveal the objectives behind its
-              decisions and help train systems that cooperate with unfamiliar partners.
+              advised by Prof. Christos Dimitrakakis. My work connects inverse reinforcement
+              learning, active learning, and multi-agent systems.
             </p>
             <p>
-              I enjoy finding mathematical formulations for difficult AI problems just as much
-              as tackling them in practice, building systems, and testing ideas through their
-              implementations.
-            </p>
-            <p>
-              My work spans inverse reinforcement learning, active learning, multi-agent
-              systems, and ad hoc teamwork. I care about methods that use fewer demonstrations,
-              separate individual preferences from social incentives, and remain reliable when
-              environments or partners change.
+              I enjoy moving between mathematical formulations and practical systems, from
+              theoretical guarantees to large-scale experiments.
             </p>
           </div>
         </div>
