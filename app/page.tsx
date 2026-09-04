@@ -67,8 +67,7 @@ export default function Home() {
           <h2 className="hero-title">Learning what drives intelligent behaviour.</h2>
           <p className="lede">
             I’m Victor, a machine learning researcher working on reinforcement learning,
-            reward inference, and multi-agent systems. I build theoretically grounded
-            algorithms—and the systems needed to test them at scale.
+            reward inference, and multi-agent systems.
           </p>
           <p className="availability">Currently open to research and postdoctoral opportunities.</p>
           <div className="hero-links" aria-label="Profile links">
@@ -87,8 +86,7 @@ export default function Home() {
         <p className="section-label">Research</p>
         <div className="section-body intro-grid">
           <p className="statement">
-            I study how agents can infer what others want—and cooperate when environments
-            and partners change.
+            I study how AI systems can infer what others want and remain trustworthy as their environments and collaborators change.
           </p>
           <div className="research-notes">
             <p>
