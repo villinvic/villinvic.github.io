@@ -79,7 +79,7 @@ export default function Home() {
         </figure>
       </section>
 
-      <section className="section split" id="research">
+      <section className="section split research-section" id="research">
         <p className="section-label">Research</p>
         <div className="section-body intro-grid">
           <p className="statement">
@@ -138,8 +138,7 @@ export default function Home() {
 
       <footer>
         <p>Victor Villin</p>
-        <p>Researching reinforcement learning from Lausanne.</p>
-        <a href="mailto:victor.villin@unine.ch">Let’s talk <span aria-hidden="true">↗</span></a>
+        <a href="mailto:victor.villin@unine.ch">Drop me a line <span aria-hidden="true">↗</span></a>
       </footer>
     </main>
   );
