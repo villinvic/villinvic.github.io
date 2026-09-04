@@ -2,7 +2,8 @@ const publications = [
   {
     year: '2026',
     title: 'Inferring Transferable Rewards via Active Inverse Reinforcement Learning',
-    venue: 'EWRL · Oral presentation',
+    venue: 'EWRL',
+    highlight: 'Oral presentation',
   },
   {
     year: '2026',
@@ -12,7 +13,8 @@ const publications = [
   {
     year: '2026',
     title: 'Fair Contracts in Principal–Agent Games with Heterogeneous Types',
-    venue: 'AAMAS · Extended abstract',
+    venue: 'AAMAS',
+    note: 'Extended abstract',
   },
   {
     year: '2025',
@@ -22,7 +24,8 @@ const publications = [
   {
     year: '2024',
     title: 'Environment Design for Inverse Reinforcement Learning',
-    venue: 'ICML · Oral · Top 1%',
+    venue: 'ICML',
+    highlight: 'Oral · Top 1%',
   },
 ];
 
@@ -61,7 +64,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">PhD researcher · Geneva -- Lausanne, Switzerland</p>
-          <h1>Learning what drives intelligent behaviour.</h1>
+          <h2>Learning what drives intelligent behaviour.</h2>
           <p className="lede">
             I’m Victor, a machine learning researcher working on reinforcement learning,
             reward inference, and multi-agent systems. I build theoretically grounded
@@ -109,7 +112,11 @@ export default function Home() {
               <span className="pub-year">{publication.year}</span>
               <span>
                 <strong>{publication.title}</strong>
-                <small>{publication.venue}</small>
+                <small>
+                  {publication.venue}
+                  {publication.note && <> · {publication.note}</>}
+                  {publication.highlight && <> · <span className="oral">{publication.highlight}</span></>}
+                </small>
               </span>
               <span className="arrow" aria-hidden="true">↗</span>
             </a>
