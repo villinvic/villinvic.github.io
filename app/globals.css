@@ -1,5 +1,13 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-display: swap;
+  font-family: 'FolkProH';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/FolkPro-Heavy.woff') format('woff');
+}
+
 :root {
   --ink: #161816;
   --muted: #696d67;
@@ -32,7 +40,7 @@ a { color: inherit; text-decoration: none; }
   justify-content: space-between;
   border-bottom: 1px solid var(--line);
 }
-.wordmark { font-weight: 680; letter-spacing: -0.035em; font-size: 1.1rem; }
+.wordmark { font-family: 'FolkProH', var(--font-geist-sans), sans-serif; font-weight: 900; letter-spacing: -0.035em; font-size: 1.1rem; }
 nav { display: flex; gap: clamp(18px, 3vw, 40px); font-size: .9rem; }
 nav a, .hero-links a, .text-link, footer a { border-bottom: 1px solid transparent; }
 nav a:hover, .hero-links a:hover, .text-link:hover, footer a:hover { border-color: currentColor; }
@@ -57,8 +65,9 @@ h1 {
   margin: 20px 0 30px;
   font-size: clamp(3.8rem, 7.2vw, 7.1rem);
   line-height: .93;
-  font-weight: 570;
-  letter-spacing: -.072em;
+  font-family: 'FolkProH', var(--font-geist-sans), sans-serif;
+  font-weight: 900;
+  letter-spacing: -.05em;
 }
 .lede {
   max-width: 690px;
@@ -103,7 +112,7 @@ h1 {
 .project-1 { background: var(--acid); }
 .project-2 { background: var(--lavender); }
 .project-topline { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
-.project-card h2 { margin: 0; font-size: 2rem; letter-spacing: -.05em; font-weight: 590; }
+.project-card h2 { margin: 0; font-family: 'FolkProH', var(--font-geist-sans), sans-serif; font-size: 2rem; letter-spacing: -.04em; font-weight: 900; }
 .project-topline > span { font: .7rem var(--font-geist-mono), monospace; color: #53574f; }
 .project-card p { max-width: 440px; margin: 32px 0; font-size: 1.05rem; line-height: 1.55; }
 .project-card a { margin-top: auto; font-size: .9rem; text-decoration: underline; text-underline-offset: 5px; }

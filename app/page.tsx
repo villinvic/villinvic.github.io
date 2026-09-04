@@ -60,7 +60,7 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">PhD researcher · Lausanne, Switzerland</p>
+          <p className="eyebrow">PhD researcher · Geneva -- Lausanne, Switzerland</p>
           <h1>Learning what drives intelligent behaviour.</h1>
           <p className="lede">
             I’m Victor, a machine learning researcher working on reinforcement learning,
