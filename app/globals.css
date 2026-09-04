@@ -86,7 +86,9 @@ nav a:hover, .hero-links a:hover, .text-link:hover, footer a:hover { color: var(
   line-height: 1.55;
   letter-spacing: -.025em;
 }
-.hero-links { display: flex; flex-wrap: wrap; gap: 16px 28px; margin-top: 38px; font-size: .92rem; }
+.availability { display: flex; align-items: center; gap: 10px; margin: 25px 0 0; color: var(--cyan); font-size: .9rem; }
+.availability::before { width: 7px; height: 7px; border-radius: 50%; background: var(--pink-bright); content: ''; box-shadow: 0 0 0 4px rgba(236, 72, 153, .12); }
+.hero-links { display: flex; flex-wrap: wrap; gap: 16px 28px; margin-top: 24px; font-size: .92rem; }
 .hero-links span, .project-card a span, footer a span { color: var(--pink); }
 .portrait-wrap { margin: 0; position: relative; }
 .portrait-wrap::before {
@@ -104,7 +106,7 @@ nav a:hover, .hero-links a:hover, .text-link:hover, footer a:hover { color: var(
 .research-section .section-label { margin-bottom: 42px; }
 .section-body { min-width: 0; }
 .intro-grid { display: grid; grid-template-columns: 1fr; gap: 38px; }
-.statement { max-width: 960px; margin: 0; font-size: clamp(2rem, 3.7vw, 3.5rem); line-height: 1.09; letter-spacing: -.052em; }
+.statement { max-width: 880px; margin: 0; font-family: 'FolkProH', var(--font-geist-sans), sans-serif; font-size: clamp(1.55rem, 2.6vw, 2.5rem); font-weight: 900; line-height: 1.15; letter-spacing: -.035em; }
 .research-notes { max-width: 780px; margin-left: auto; color: #d1d5db; font-size: 1.04rem; line-height: 1.65; }
 .research-notes p { margin: 0; }
 .research-notes p + p { margin-top: 14px; }

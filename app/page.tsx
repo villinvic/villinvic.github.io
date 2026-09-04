@@ -70,6 +70,7 @@ export default function Home() {
             reward inference, and multi-agent systems. I build theoretically grounded
             algorithms—and the systems needed to test them at scale.
           </p>
+          <p className="availability">Currently open to research and postdoctoral opportunities.</p>
           <div className="hero-links" aria-label="Profile links">
             <a href="mailto:victor.villin@unine.ch">Email <span aria-hidden="true">↗</span></a>
             <a href="https://scholar.google.com/citations?user=A1g8314AAAAJ&hl=en">Scholar <span aria-hidden="true">↗</span></a>
