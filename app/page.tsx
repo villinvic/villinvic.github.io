@@ -63,7 +63,7 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">Machine Learning PhD · Geneva -  Lausanne, Switzerland</p>
+          <p className="eyebrow">Machine Learning PhD · Geneva — Lausanne, Switzerland</p>
           <h2 className="hero-title">Learning what drives intelligent behaviour.</h2>
           <p className="lede">
             I’m Victor, a machine learning researcher working on reinforcement learning,
@@ -145,8 +145,13 @@ export default function Home() {
       </section>
 
       <footer>
-        <p>Victor Villin</p>
-        <a href="mailto:victor.villin@unine.ch">Drop me a line <span aria-hidden="true">↗</span></a>
+        <div className="footer-signature">
+          <p>Victor Villin</p>
+          <blockquote className="footer-verse">
+            <p>“Whatever you do, work heartily, as for the Lord and not for men.” <cite>Colossians 3:23</cite></p>
+          </blockquote>
+        </div>
+        <a href="mailto:victor.villin@unine.ch">Drop me a mail <span aria-hidden="true">↗</span></a>
       </footer>
     </main>
   );
