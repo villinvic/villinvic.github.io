@@ -78,7 +78,7 @@ export default function Home() {
           </div>
         </div>
         <figure className="portrait-wrap">
-          <img className="portrait" src="/victor-villin.jpg" alt="Victor Villin smiling outdoors" width="360" height="360" />
+          <img className="portrait" src="/victor-villin.jpg" alt="Victor Villin smiling at a conference" width="360" height="360" />
         </figure>
       </section>
 
