@@ -63,7 +63,7 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">Machine Learning PhD · Geneva — Lausanne, Switzerland</p>
+          <p className="eyebrow">PhD in Machine Learning · Geneva — Lausanne, Switzerland</p>
           <h2 className="hero-title">Learning what drives intelligent behaviour.</h2>
           <p className="lede">
             I’m Victor, a machine learning researcher working on reinforcement learning,
@@ -90,9 +90,10 @@ export default function Home() {
           </p>
           <div className="research-notes">
             <p>
-              I am completing my PhD in Computer Science at the University of Neuchâtel,
-              advised by Prof. Christos Dimitrakakis. My work connects (inverse) reinforcement
-              learning, active learning, and multi-agent systems.
+              I recently completed my PhD in Computer Science at the University of Neuchâtel,
+              advised by Prof. Christos Dimitrakakis. My thesis, <em>Environmental Interventions
+              for Efficient Reward Inference and Robust Teamwork</em>, connects (inverse)
+              reinforcement learning, active learning, and multi-agent systems.
             </p>
             <p>
               I enjoy working across the full research pipeline: from mathematical formulation to

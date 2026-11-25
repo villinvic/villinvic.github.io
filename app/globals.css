@@ -72,8 +72,8 @@ nav a:hover, .hero-links a:hover, .text-link:hover, footer a:hover { color: var(
 .hero-title {
   max-width: 820px;
   margin: 20px 0 30px;
-  font-size: clamp(2.8rem, 4.8vw, 4.85rem);
-  line-height: .93;
+  font-size: clamp(2.4rem, 4.1vw, 4.1rem);
+  line-height: .96;
   font-family: 'FolkProH', var(--font-geist-sans), sans-serif;
   font-weight: 900;
   letter-spacing: -.05em;
@@ -152,7 +152,7 @@ footer p { margin: 0; }
   .site-header, .hero, .section, footer { width: min(100% - 32px, 680px); }
   .site-header { min-height: 76px; }
   .hero { min-height: auto; grid-template-columns: 1fr; padding: 72px 0 88px; gap: 64px; }
-  .hero-title { font-size: clamp(2.45rem, 10.5vw, 3.95rem); }
+  .hero-title { font-size: clamp(2.1rem, 9vw, 3.4rem); }
   .portrait-wrap { width: min(50%, 210px); margin-left: auto; }
   .split, .intro-grid { grid-template-columns: 1fr; }
   .section { padding: 80px 0; }
